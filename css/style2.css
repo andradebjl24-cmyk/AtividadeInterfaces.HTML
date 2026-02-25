@@ -1,192 +1,71 @@
 body{
 
-    background-color: rgb(170, 170, 170);
+    margin: 0;
+    padding: 0;
+    
 }
 
 #camada1{
 
     position: absolute;
     top: 0%;
-    margin: 50px;
-    width: 900px;
-    height: 200px;
-    left: 250px;
-    background-color: orangered;
+    left: 5%;
+    width: 25%;
+    height: 120px;
+    background-color: blue;
+    text-align: center;
+    line-height: 120px;
     z-index: 1;
-    
 }
 
 #camada2{
 
     position: absolute;
     top: 0%;
-    margin: 120px;
-    width: 450px;
-    height: 50px;
-    left: 390px;
-    background-color: white;
-    z-index: 2;
-
+    left: 458px;
+    width: 65%;
+    height: 120px;
+    background-color: red;
+    text-align: center;
+    line-height: 120px;
+    z-index: 1;
 }
 
 #camada3{
-
     position: absolute;
-    top: 0%;
-    margin: 120px;
-    width: 40px;
-    height: 50px;
-    left:800px ;
-    background-color: black;
-    z-index: 3;
+    top: 120px;
+    left: 5%;
+    width: 1373px;
+    height: 60px;
+    background-color: green;
+    text-align: center;
+    line-height: 60px;
+    z-index: 1;
 }
 
- #botao1{
-
+#camada4{
     position: absolute;
-    top: 150px;
-    margin: 120px;
-    width: 80px;
-    height: 20px;
-    left: 350px;
-    background-color: white;
-    border: 10px solid gray;
-    z-index: 2;
- }
-
-
-
- #botao2{
-
-     position: absolute;
-    top: 150px;
-    margin: 120px;
-    width: 80px;
-    height: 20px;
-    left: 500px;
-    background-color:white ;
-    border: 10px solid gray;
-    z-index: 2;
-
-
- }
-
- #botao3{
-
-     position: absolute;
-    top: 150px;
-    margin: 120px;
-    width: 80px;
-    height:20px;
-    left: 650px;
-    background-color: white;
-    border: 10px solid gray;
-    z-index: 2;
-
- }
-
- #botao4{
-
-     position: absolute;
-    top: 150px;
-    margin: 120px;
-    width: 80px;
-    height:20px; 
-    left: 800px;
-    background-color:white ;
-    border: 10px solid gray;
-    z-index: 2;
-
- }
-
- #camada4{
-
-    position: absolute;
-    top: 300px;
-    margin: 50px;
-    width: 150px;
-    height: 150px;
-    left: 370px;
-    background-color: orangered;
+    top: 180px;
+    left: 5%;
+    width: 1370px;
+    height: 350px;
+    background-color: yellow;
+    border: 6px solid red;
+    text-align: center;
+    line-height: 350px;
     z-index: 1;
+}
 
- }
-
- #camada5{
-
-    position: absolute;
-    top: 300px;
-    margin: 50px;
-    width: 150px;
-    height: 150px;
-    left: 550px;
-    background-color:gray;
-    z-index: 1;
-    
- }
-
- #camada6{
+#camada5{
 
     position: absolute;
-    top: 300px;
-    margin: 50px;
-    width: 150px;
-    height: 150px;
-    left: 720px;
-    background-color: blue;
-    z-index: 1;
-    
- }
-
- #camada7{
-
-    position: absolute;
-    top: 300px;
-    margin: 50px;
-    width: 150px;
-    height: 320px;
-    left: 900px;
+    top: 540px;
+    left: 5%;
+    width: 1378px;
+    height: 60px;
     background-color: gray;
+    text-align: center;
+    line-height: 60px;
     z-index: 1;
-    
- }
-
- #camada8{
-
-    position: absolute;
-    top: 470px;
-    margin: 50px;
-    width: 150px;
-    height: 150px;
-    left: 370px;
-    background-color: blue;
-    z-index: 2;
-    
- }
-
- #camada9{
-
-    position: absolute;
-    top: 470px;
-    margin: 50px;
-    width: 320px;
-    height: 150px;
-    left: 550px;
-    background-color: orangered;
-    z-index: 2;
-
-
- }
-
-
- #fundo{
-
-    position: absolute;
-    top: 0%;
-    width: 900px;
-    height: 650px;
-    margin: 50px;
-    left: 250px;px ;
-    background-color: white;
 
 }
