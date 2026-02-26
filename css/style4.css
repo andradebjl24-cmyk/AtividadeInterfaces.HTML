@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#fundo{
+
+    position: relative;
+    width: 900px;
+    height: 700px;
+    background-color: rgb(138, 138, 189);
+    border: 5px solid black;
+    margin: auto;
+
+}
+ 
+#topo{
+
+    position: relative;
+    width: 890px;
+    height: 40;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 60px;
+    font-size: large 100px;
+    font-family: Arial, Helvetica, sans-serif
+   
+}
+
+#conteudo{
+
+    position: absolute;
+    width: 510px;
+    height: 550px;
+    background-color: rgb(175, 175, 175);
+    top: 140px;
+    left: 180px;
+
+}
+
+
+#branco1{
+  position: relative;
+  width: 180px;
+  height: 140px;
+  background-color: white;
+  margin-left: 700px;
+
+}
+
+#branco2{
+  position: relative;
+  width: 180px;
+  height: 140px;
+  background-color: white;
+  margin-left: 700px;
+  margin-top: 15px;
+  
+
+}
+
+#camera{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 550px;
+    margin-top: 20px;
+}
+
+#rodape{
+    position: absolute;
+    width: 891px;
+    height: 30px;
+    background-color: rgb(10, 113, 231);
+    z-index: 2;
+    top: 660px;
+
+}
