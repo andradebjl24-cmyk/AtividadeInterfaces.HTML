@@ -1,0 +1,387 @@
+*{
+    border: 0;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    background-image: url(../imagens/guitarra_fundo_body.jpg);
+    background-size: 100% 26%;
+    background-repeat: no-repeat;
+}
+
+
+#container{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background-color: rgb(186, 81, 118);
+    margin: auto;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    
+    
+   
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-image: url(../imagens/guitarras_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#botoes{
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    flex-direction: row;
+    margin-top: 9%;
+    margin-left: 53%;   
+    z-index: 2;
+   
+}
+
+.botao{
+    background-color: white;
+    color: rgb(71, 3, 3);
+    font-size: 25px;
+    text-decoration: none;
+    transition: all 0,5s;
+    padding: 5px;
+
+}
+
+.botao:hover{
+background-color: rgb(88, 88, 88);
+
+}
+
+#vermelho{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+   
+   
+}
+#descricao{
+    position: relative;
+    width: 40%;
+    height: 270px;
+    background: rgb(154, 71, 71);
+
+}
+
+h1{
+    color: white;
+    font-size: 25px;
+    padding: 30px;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+    padding: 30px;
+    padding-top: 0;  
+
+}
+
+#guitarras{
+    position: relative;
+    width: 40%;
+    height: 270px;
+    background-image: url(../imagens/loja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#branco{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+h2{
+    font-size: 10px;
+
+}
+
+h3{
+    color: red;
+}
+
+#tarra1{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    
+}
+
+#tarra1 img{
+    width: 100%;
+    height: 100%;
+}
+
+#tarra2{
+    position: relative;
+    width: 100%;
+    height: 200px;
+   
+}
+
+#tarra2 img{
+    width: 100%;
+    height: 100%;
+}
+
+#tarra3{
+    position: relative;
+    width: 100%;
+    height: 200px;
+  
+}
+
+#tarra3 img{
+    width: 100%;
+    height: 100%;
+}
+
+#tarra4{
+    position: relative;
+    width: 100%;
+    height: 200px;
+   
+}
+
+#tarra4 img{
+    width: 100%;
+    height: 100%;
+}
+
+#terracota{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(176, 76, 14);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+#localizacao{
+    position: relative;
+    width: 40%;
+    height: 270px;
+}
+
+#localizacao img{
+    width: 100%;
+    height: 100%;
+}
+
+#nossaloja{
+    position: relative;
+    width: 40%;
+    height: 270px;
+    background: rgb(154, 71, 71);
+
+}
+
+
+
+#cadastro{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+
+#casamento2{
+    float: left;
+    width: 30%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+h4{
+    color: black;
+}
+
+.cx{
+    width: 100%;
+    height: 30px;
+    border: solid black 2px;
+    border-radius: 5px;
+
+}
+
+#pedido{
+    width: 75%;
+    height: 120px;
+    border: solid black 2px;
+    border-radius: 5px;
+
+}
+
+#enviar{
+    width: 100%;
+    height: 30px;
+    border: solid black 2px;
+    border-radius: 5px;
+    text-align: center;
+
+    
+}
+
+#cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+h5{
+    color: blue;
+    font-size: 30px;
+    
+}
+
+
+#casamento{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+    gap: 20px;
+    
+
+}
+
+#whats{
+    position: relative;
+    width: 15%;
+    height: 100%;
+
+}
+
+#whats img{
+    width: 100%;
+    height: 100px;
+
+}
+
+#insta{
+    position: relative;
+    width: 15%;
+    height: 100%;
+}
+
+#insta img{
+    width: 100%;
+    height: 100px;
+
+}
+
+#face{
+    position: relative;
+    width: 15%;
+    height: 100%;
+}
+
+#face img{
+    width: 100%;
+    height: 100px;
+
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 140px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 600px;
+    gap: 20px;
+
+}
+
+#iconewhats{
+    position: relative;
+    width: 5%;
+    height: 100%;
+
+}
+
+#iconewhats img{
+    width: 100%;
+    height: 100%;
+
+}
+
+#iconeinsta{
+    position: relative;
+    width: 5%;
+    height: 100%;
+
+}
+
+#iconeinsta img{
+    width: 100%;
+    height: 100%;
+}
+
+#iconeface{
+    position: relative;
+    width: 5%;
+    height: 100%;
+
+}
+
+#iconeface img{
+    width: 100%;
+    height: 100%;
+}
+
+
+

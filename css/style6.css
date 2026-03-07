@@ -1,166 +1,125 @@
 *{
-    border: 0;
-    margin: 0;
-    padding: 0;
+    border: 0cap;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
-#fundo{
-    position: relative;
-    width: 100%;
-    height: 800px;
-    background-color: #f9f3f3;
-    margin: auto;
-    margin-top: 10px;
+
+body{
+    font-family: Verdana;
+    font-size: 40px;
+    color: white;
+    text-align: center;
 }
 
-#main{
+#container{
     position: relative;
     width: 90%;
-    height: 800px;
-    background-color: #74748d;
-    margin:auto;
+    height: auto;
+    background-color: aquamarine;
+    margin: auto;
+
 }
 
 #cabecalho{
-    position:relative;
-    width: 80%;
-    height: 100px;
-    background-color: #050505;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 10px;
-    left: 250px;
-}
-#camada1{
     position: relative;
-    width: 80%;
-    height: 40px;
-    background-color: #191994;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 10px;
-    left: 250px;;
-     padding: 10px;
-    
-}
-
-
-#camada2{
-    position: relative;
-    width: 15%;
-    height: 500px;
-    background-color: #9f8062;
-    color: #FFFFFF;
-    padding: 10px;
-    left: 250px;;
-    float: left  
-}
-
-#camada3{
-    position: relative;
-    width: 50%;
-    height: 500px;
-    background-color: #ff8acc;
-    color: #0a0505;
-    text-align: center;
-    padding: 10px;
-    float: left;
-    left: 250px;
-    
-}
-#camada4{
-    position: relative;
-    width: 100%;
-    height: 30px;
-    background-color: white;
-    color: #080808;
-    text-align: center;
-    padding: 0px;
-    float: left;
-    left: 0px;
-}
-#camada5{
-    position: relative;
-    width: 100%;
-    height: 200px;
-    background-color: #864e1d;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 0px;
-    margin-top: 40px;
-}
-
-#camada6{
-    position: relative;
+    background-color: black;
     width: 100%;
     height: 90px;
-    background-color: #57badc;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 0px;
-    margin-top: 10px;
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
-#camada7{
-    position: relative;
-    width: 32%;
-    height: 120px;
-    background-color: gray;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 0px;
-    margin-top: 10px;
-    left: 0px;
-    float: left;
 
-}
-#camada8{
+#menu{
     position: relative;
-    width: 32%;
-    height: 120px;
-    background-color: gray;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 0px;
-    margin-top: 10px;
-    left: 13px;
-    float: left;
+    background-color: blue;
+    width: 100%;
+    height: 40px;
+    text-align: left;
+}
 
-}
-#camada9{
+#meio{
     position: relative;
-    width: 32%;
-    height: 120px;
-    background-color: gray;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 0px;
-    margin-top: 10px;
-    left: 25px;
-    float: left;
-
-}
-#camada10{
-    position: relative;
-    width: 15%;
+    width: 100%;
     height: 500px;
-    background-color: rgb(151, 9, 153);
-    color: #FFFFFF;
-    text-align: center;
-    padding: 0px;
-    margin-top: 0px;
-    float: left;
-    left: 250px;
+    background-color: rgb(102, 102, 21);
+    display: flex;
+    flex-direction: row;
 }
 
-#rodape{
+#esquerda{
     position: relative;
-    width: 80%;
-    height: 85px;
-    background-color: #060606;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 0px;
-    left: 250px;
-    clear: left;
+    width: 20%;
+    height:500px;
+    background-color: #CCCCAA;
+}
+
+#miolo{
+    width: 60%;
+    height: 500px;
+    background-color: #FFAAFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cabecalho2{
+    width: 95%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+
+#imggrande{
+    position: relative;
+    width: 95%;
+    height: 150px;
+    background-color: #996600;
+}
+
+p{
+    width: 95%;
+    height: 100px;
+    background-color: rgb(123, 102, 202);
+    font-size: 20px;
+    color: black;
+    text-align: left;
+
+}
+
+#caixa{
+    position: relative;
+    width: 95%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.caixinha{ /*class começa com .*/
+    position: relative;
+    width: 30%;
+    height: 130px;
+    background-color: gray;
+
+}
+
+#direita{
+    width: 20%;
+    height: 500px;
+    background-color: #FF00FF;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+
 }
