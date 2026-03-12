@@ -31,37 +31,35 @@ body{
 header{
     position: relative;
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     background-image: url(../imagens/guitarras_header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
 }
 
 #botoes{
     position: absolute;
     display: flex;
-    align-items: flex-end;
-    justify-content: end;
-    flex-direction: row;
-    margin-top: 9%;
-    margin-left: 53%;   
-    z-index: 2;
+    right: 20px;
+    bottom: 20px;
    
 }
 
 .botao{
     background-color: white;
     color: rgb(71, 3, 3);
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
-    transition: all 0,5s;
+    transition: all 0.5s;
     padding: 5px;
 
 }
 
 .botao:hover{
 background-color: rgb(88, 88, 88);
+margin-top: 25px;
 
 }
 
@@ -75,7 +73,7 @@ background-color: rgb(88, 88, 88);
     justify-content: space-around;
     padding-top: 15px;
    
-   
+
 }
 #descricao{
     position: relative;
@@ -131,55 +129,55 @@ h3{
 #tarra1{
     position: relative;
     width: 100%;
-    height: 200px;
+    height: auto;
     
 }
 
 #tarra1 img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 #tarra2{
     position: relative;
     width: 100%;
-    height: 200px;
+    height: auto;
    
 }
 
 #tarra2 img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 #tarra3{
     position: relative;
     width: 100%;
-    height: 200px;
+    height: auto;
   
 }
 
 #tarra3 img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 #tarra4{
     position: relative;
     width: 100%;
-    height: 200px;
+    height: auto;
    
 }
 
 #tarra4 img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 #terracota{
     position: relative;
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-color: rgb(176, 76, 14);
     display: flex;
     flex-direction: row;
@@ -189,20 +187,27 @@ h3{
 }
 
 #localizacao{
-    position: relative;
-    width: 40%;
-    height: 270px;
+    width: 45%;
 }
 
-#localizacao img{
+#localizacao iframe{
     width: 100%;
-    height: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#titulo{
+    font-size: 20px;
+}
+
+#corpo{
+    font-size: 15px;
 }
 
 #nossaloja{
     position: relative;
     width: 40%;
-    height: 270px;
+    height: 300px;
     background: rgb(154, 71, 71);
 
 }
@@ -218,7 +223,7 @@ h3{
     justify-content: space-around;
     
     
-    
+
 }
 
 #casamento2{
@@ -339,9 +344,8 @@ footer{
 
 #redes{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    margin-left: 600px;
     gap: 20px;
 
 }
@@ -383,5 +387,238 @@ footer{
     height: 100%;
 }
 
+/*-----------------visualização celular-----------*/
+@media only screen and (max-width:480px){
+      #container{
+          width: 100%;
+
+      }
+
+      header{
+          height: 150px;
+
+     }
+
+      #botoes{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          right: 0;
+          left: 0;
+          bottom: 10px;
+          gap: 5px;
+     }
+
+      .botao{
+          font-size: 16px;
+           
+     }
 
 
+
+       #vermelho{
+          flex-direction: column;
+          align-items: center;
+          height: auto;
+
+     }
+
+       #descricao{
+           width: 100%;
+           height: auto;
+
+     }
+
+       #guitarras{
+           width: 100%;
+           height: 200px;
+
+        }
+
+       #branco{
+           flex-direction: column;
+           align-items: center;
+           height: auto;
+
+      }
+
+       #branco div{
+           width: 90%;
+
+     }
+
+       #terracota{
+           flex-direction: column;
+           align-items: center;
+           height: auto;
+
+     }
+
+       #localizacao{
+           width: 100%;
+
+     }
+
+       #localizacao iframe{
+           width: 100%;
+           height: 250px;
+
+     }
+
+       #nossaloja{
+           width: 100%;
+           height: auto;
+
+     }
+
+
+
+       #cadastro{
+          flex-direction: column;
+          align-items: center;
+          height: auto;
+
+     }
+
+        #casamento2{
+           width: 90%;
+
+     }
+
+       #cont{
+         width: 90%;
+
+     }
+
+
+
+        #casamento{
+           margin-left: 0;
+           justify-content: center;
+           flex-wrap: wrap;
+
+     }
+
+        #whats,
+        #insta,
+        #face{
+           width: 30%;
+     }
+
+}
+
+
+/*-----------------visualização tablet-----------*/
+@media only screen and (min-width:481px){
+    @media only screen and (max-width:720px){
+         #container{
+            width:95%;
+
+         }
+
+         header{
+            width: 100%;
+            height: auto;
+         }
+
+         #botoes{
+           display: flex;
+           justify-content: center; 
+           height: 80px;
+        
+            
+         }
+
+         .botao{
+            font-size: 20px;
+            
+         }
+
+         #vermelho{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+
+         }
+
+         #descricao{
+            width:100%;
+
+         }
+
+         h1{
+            font-size: 20px;
+            padding: 20px;
+         }
+
+         p{
+            font-size: 15px;
+        
+         }
+
+         #guitarras{
+         width: 100%;
+        
+
+         }
+
+         #branco{
+         flex-wrap: wrap;
+         height: auto;
+
+         }
+
+         #branco div{
+         width:45%; 
+
+         }
+
+         #terracota {
+            flex-wrap: wrap;
+            height: auto;
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+
+         }
+
+         #localizacao{
+         width: 90%;
+
+         }
+
+         #localizacao iframe{
+         width: 100%;
+
+         }
+
+         #nossaloja{
+            width: 90%;
+         }
+
+         #cadastro{
+         flex-direction: column;
+         align-items: center;
+         height: auto;
+
+         }
+
+         #casamento2{
+          width: 90%;
+
+         }
+
+         #cont{
+         width: 90%;
+
+         }
+
+         h5{
+            font-size: 20px;
+         }
+
+         
+       
+    }
+}

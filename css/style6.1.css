@@ -45,11 +45,14 @@ body{
 }
 
  .botao {
+    width: 16.6%;
+    text-align: center;
+    justify-content: space-between;
     background-color: transparent;
     color: white;
     text-decoration: none;
-    transition: background-color 0.3s;
-    font-size: 25px;
+    transition: 1s;
+    font-size: 20px;
   }
 
   .botao:hover {
@@ -187,4 +190,98 @@ footer{
     background-color: black;
 
 }
+/*----------------visualização mobile--------------*/
+@media only screen and (max-width:480px){
+    #container{
+        width: 98%;
+    }
 
+    #menu{
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+    }
+
+    .botao{
+        width:50%;
+    }
+
+    #esquerda{
+        display: none;
+    }
+
+    #direita{
+        display: none;
+    }
+
+    p{
+        display: none;
+    }
+
+    #grande{
+        display: none;
+    }
+
+    #miolo{
+        width: 100%;
+    }
+
+    #caixa{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caixinha{
+        width: 100%;
+
+    }
+
+
+
+
+}
+
+/*--------------- visualizacao tablet-------------*/
+
+
+@media only screen and (min-width:481px){
+    @media only screen and (max-width:720px){
+        #container{
+            width: 95%;
+
+        }
+
+        #cabecalho{
+            width: 100%;
+        
+        }
+
+        #menu{
+            height: 80px;
+            flex-wrap: wrap;
+        }
+
+        .botao{
+            width:33%;
+            color:yellow;
+        }
+
+        #esquerda, #direita{
+            display: none;
+
+        }
+
+        #miolo{
+            width: 100%;
+
+        }
+
+        p{
+            height: 170px;
+        }
+
+        
+    }
+
+ }  
