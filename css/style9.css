@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #c8daee;
+    color: #000;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+
+header > div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header img{
+    width: 90px;
+    height: auto;
+}
+
+button{
+    padding: 8px 14px;
+    border: 1px solid #000;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:last-child{
+    background-color: #164757;
+    color: #fff;
+    border: none;
+}
+
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 40px;
+}
+
+
+section h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+section p{
+    font-size: 35px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    color: #333;
+}
+
+
+section button{
+    background: #000;
+    color: #fff;
+    border: none;
+}
+
+
+.images{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: #f7cdbb;      
+    padding: 20px;            
+    border-radius: 25px; 
+    border: solid 2px black;     
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15); 
+    display: flex;            
+    gap: 15px;                
+    align-items: center;
+}
+
+.images img{
+    position: absolute;
+    object-fit: contain;
+}
+
+
+.img1{
+    left: 40px;
+    width: 280px;
+    
+}
+
+.img3{
+    top: 0;
+    left: 540px;
+    width: 50px;
+    border-radius: 25px; 
+
+}
+
+.img4{
+    top: 0;
+    left: 10px;
+    width: 60px;
+    border-radius: 25px;
+}
+
+#card{
+    position: absolute;
+    top: 280px;
+    left: 1120px;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    z-index: 2;
+    border: 2px solid #000;
+    box-shadow: 8px 8px 0px #000;
+}
+
+#card button{
+    display: block;
+    margin: 30px auto 0;
+    padding: 10px;
+    background: #164757;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#btn{
+    display: block;
+    margin: 30px auto 0;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    width: 100%;
+    background: #000;
+    margin: 10px ;
+}
